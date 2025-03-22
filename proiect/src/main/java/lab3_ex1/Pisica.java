@@ -1,4 +1,4 @@
-package lab3;
+package main.java.lab3_ex1;
 
 class Pisica implements Animal{
     private String name;

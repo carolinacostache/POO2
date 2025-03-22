@@ -1,4 +1,4 @@
-package lab3_ex2;
+package main.java.lab3_ex2;
 
 public class Triunghi extends Shape {
     private int latime;

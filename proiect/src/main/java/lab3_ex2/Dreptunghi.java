@@ -1,4 +1,4 @@
-package lab3_ex2;
+package main.java.lab3_ex2;
 
 public class Dreptunghi extends Shape{
     private int latime;

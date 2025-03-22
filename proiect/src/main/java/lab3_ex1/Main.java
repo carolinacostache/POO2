@@ -1,6 +1,6 @@
-package lab3;
+package main.java.lab3_ex1;
 
-public class Main1 {
+public class Main {
     public static void main(String[] args) {
         Animal[] animals = {
                 new Pisica("Felix"),
