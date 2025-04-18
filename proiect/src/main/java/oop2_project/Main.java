@@ -1,4 +1,4 @@
-package main.java.proiect;
+package main.java.oop2_project;
 
 public class Main {
     public static void main(String[] args) {

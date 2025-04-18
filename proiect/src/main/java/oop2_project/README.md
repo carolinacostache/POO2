@@ -8,13 +8,13 @@ The application simulates a digital library system where users can manage books,
 
 ## Stage 1️⃣ – Status
 
-✅ Core features implemented
-✅ Simple classes with private/protected attributes and accessor methods (getters/setters)
-✅ At least 2 different collections capable of managing the defined objects (e.g., List, Set, Map, etc.), with at least one being sorted. If collections haven't been covered by the deadline, one-dimensional or two-dimensional arrays may be used instead
-✅ Use of inheritance to create additional classes and include them within the collections
-✅ At least one service class that exposes the system's operations
-✅ A Main class from which calls to the services are made
-✅ Uses inheritance, encapsulation, and exception handling
+✅ Core features implemented; 
+✅ Simple classes with private/protected attributes and accessor methods (getters/setters); 
+✅ At least 2 different collections capable of managing the defined objects (e.g., List, Set, Map, etc.), with at least one being sorted. If collections haven't been covered by the deadline, one-dimensional or two-dimensional arrays may be used instead;
+✅ Use of inheritance to create additional classes and include them within the collections;
+✅ At least one service class that exposes the system's operations ;
+✅ A Main class from which calls to the services are made ;
+✅ Uses inheritance, encapsulation, and exception handling.
 
 
 ## Actions 🎇

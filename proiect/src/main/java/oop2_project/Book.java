@@ -1,4 +1,4 @@
-package main.java.proiect;
+package main.java.oop2_project;
 import java.time.LocalDate;
 
 public class Book {
