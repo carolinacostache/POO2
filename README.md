@@ -5,7 +5,7 @@
 
 ## Summary
 
-### Project [OOP 2](src/main.java/oop2_project).
+### Project [OOP 2](proiect/src/main/java/oop2_project).
 
 ### Lab 2 [exercises](src/main.java/Lab2).
 ### Lab 3 [exercise 1](src/main.java/lab3_ex1). 
