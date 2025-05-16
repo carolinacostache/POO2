@@ -13,7 +13,11 @@ Each lab/project has its dedicated folder. 📂
 ### Lab 3 [exercise 2](proiect/src/main/java/lab3_ex2).
 ### Lab 3 [exercise 3 + bonus](proiect/src/main/java/lab3_ex3_bonus).
 ### Lab 4 [exercises](proiect/src/main/java/lab4_ex1).
+### Lab 9 [practice](proiect/src/main/java/lab9).
+### Lab 9 [exercise](proiect/src/main/java/lab9_ex1).
 ### Lab 10 [homework](proiect/src/main/java/lab10).
+### Lab 11 [exercises](proiect/src/main/java/lab11).
+
 
 
 
