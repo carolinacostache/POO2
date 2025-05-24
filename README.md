@@ -17,6 +17,12 @@ Each lab/project has its dedicated folder. 📂
 ### Lab 9 [exercise](proiect/src/main/java/lab9_ex1).
 ### Lab 10 [homework](proiect/src/main/java/lab10).
 ### Lab 11 [exercises](proiect/src/main/java/lab11).
+### Lab 12 [classwork](proiect/src/main/java/lab12) && [classwork2](proiect/src/main/java/racecpndition.ex1).
+### Lab 12 [exercises](proiect/src/main/java/lab12_ex1).
+### Lab 12 [homework](proiect/src/main/java/lab12_ex2).
+
+
+
 
 
 
