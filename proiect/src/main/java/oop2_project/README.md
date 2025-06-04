@@ -23,7 +23,7 @@ This stage focused on building the core logic.
 
 ✅ Implements core OOP principles: inheritance, encapsulation, and exception handling
 
-# Stage  - Status
+## Stage 2️⃣ - Status
 This stage adds database connectivity via JDBC and a custom audit service.
 
 ✅ Database and JDBC
