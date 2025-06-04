@@ -235,4 +235,49 @@ public class BookDAO implements GenericDAO<Book> {
         }
         return book;
     }
+
+    public List<Book> getActiveReservations() throws SQLException {
+        List<Book> reservedBooks = new ArrayList<>();
+
+        String sql = "SELECT * FROM book WHERE reserved_until IS NOT NULL AND reserved_until > CURRENT_TIMESTAMP";
+        try (PreparedStatement stmt = connection.prepareStatement(sql);
+             ResultSet rs = stmt.executeQuery()) {
+
+            while (rs.next()) {
+                Book book = mapRowToBook(rs);
+                reservedBooks.add(book);
+            }
+        }
+        return reservedBooks;
+    }
+
+    private Book mapRowToBook(ResultSet rs) throws SQLException {
+        Book book = new Book();
+        book.setId(rs.getInt("id"));
+        book.setTitle(rs.getString("title"));
+        book.setAuthorId(rs.getInt("author_id"));
+
+        String genreStr = rs.getString("genre");
+        Genre genre = Genre.valueOf(genreStr);
+        book.setGenre(genre);
+
+        book.setAvailable(rs.getBoolean("is_available"));
+
+        int borrowerId = rs.getInt("borrower_id");
+        if (rs.wasNull()) {
+            book.setBorrowerId(null);
+        } else {
+            book.setBorrowerId(borrowerId);
+        }
+
+        Timestamp reservedUntil = rs.getTimestamp("reserved_until");
+        if (reservedUntil != null) {
+            book.setReservedUntil(reservedUntil.toLocalDateTime().toLocalDate());
+        }
+
+        return book;
+    }
+
+
+
 }

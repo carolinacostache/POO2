@@ -1,0 +1,14 @@
+getAllBooks,04-06-2025 23:13:32
+addMemberWithRole: name=CARO, email=caro@cti.ro, role=Author,04-06-2025 23:13:54
+addMemberWithRole: name=ana, email=banana@cca.ro, role=Reader,04-06-2025 23:24:37
+getAllBooks,04-06-2025 23:24:40
+addBook: title=red, authorName=carolina, genre=ROMANCE,04-06-2025 23:25:10
+removeBook: title=red,04-06-2025 23:25:15
+findBooksByAuthor: authorName=carolina,04-06-2025 23:25:36
+borrowBook: bookName=the da vinci code, readerName=ana,04-06-2025 23:25:54
+returnBook: bookTitle=the da vinci code,04-06-2025 23:26:03
+reserveBook: title=the da vinci code, reservedBy=ana,04-06-2025 23:26:20
+getBorrowedReservations,04-06-2025 23:26:25
+generateReservationsReport,04-06-2025 23:26:25
+generateReservationsReport,04-06-2025 23:39:14
+resetExpiredReservations,04-06-2025 23:40:06

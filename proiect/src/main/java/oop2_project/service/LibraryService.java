@@ -160,6 +160,8 @@ public class LibraryService {
         auditService.log("generateBorrowedBooksReport");
     }
 
-
+    public List<Book> getActiveReservations() throws SQLException {
+        return bookDAO.getActiveReservations();
+    }
 
 }

@@ -9,14 +9,14 @@ public class ReportReserved extends Report {
     @Override
     public void generateReport(LibraryService libraryService) {
         try {
-            List<Book> overdueBooks = libraryService.getBorrowedReservations();
-            if (overdueBooks.isEmpty()) {
-                System.out.println("No overdue reservations.");
+            List<Book> reservedBooks = libraryService.getActiveReservations(); // new method
+            if (reservedBooks.isEmpty()) {
+                System.out.println("No books are currently reserved.");
             } else {
-                System.out.println("Overdue Reservations:");
-                for (Book book : overdueBooks) {
-                    System.out.printf("%s (Book ID: %d), Reserved Until: %s\n",
-                            book.getTitle(), book.getId(), book.getReservedUntil());
+                System.out.println("Currently Reserved Books:");
+                for (Book book : reservedBooks) {
+                    System.out.printf("%s, Reserved Until: %s\n",
+                            book.getTitle(), book.getReservedUntil());
                 }
             }
         } catch (Exception e) {

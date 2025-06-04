@@ -3,6 +3,7 @@ DROP TABLE IF EXISTS author CASCADE;
 DROP TABLE IF EXISTS reader CASCADE;
 DROP TABLE IF EXISTS member CASCADE;
 DROP TABLE IF EXISTS genre CASCADE;
+DROP TABLE IF EXISTS audit_log CASCADE;
 
 CREATE TABLE genre (
                        name VARCHAR(50) PRIMARY KEY
@@ -48,22 +49,22 @@ INSERT INTO member (name, email) VALUES ('carolina', 'carolina@cca.com') RETURNI
 INSERT INTO author (member_id) VALUES (1);
 
 INSERT INTO member (name, email) VALUES ('corina', 'corina@cca.com') RETURNING id;
-INSERT INTO author (member_id) VALUES (4);
+INSERT INTO author (member_id) VALUES (2);
 
 INSERT INTO member (name, email) VALUES ('felix', 'felix@cca.com') RETURNING id;
-INSERT INTO reader (member_id) VALUES (2);
+INSERT INTO reader (member_id) VALUES (3);
 
 INSERT INTO book (title, author_id, genre) VALUES ('Harry Potter', 1, 'FICTION');
-INSERT INTO book (title, author_id, genre) VALUES ('The Philosopher''s Stone', 3, 'FICTION');
-INSERT INTO book (title, author_id, genre) VALUES ('The Chamber of Secrets', 3, 'FICTION');
+INSERT INTO book (title, author_id, genre) VALUES ('The Philosopher''s Stone', 2, 'FICTION');
+INSERT INTO book (title, author_id, genre) VALUES ('The Chamber of Secrets', 2, 'FICTION');
 INSERT INTO book (title, author_id, genre) VALUES ('The Prisoner of Azkaban', 1, 'FICTION');
-INSERT INTO book (title, author_id, genre) VALUES ('A Brief History of Time', 3, 'SCIENCE');
+INSERT INTO book (title, author_id, genre) VALUES ('A Brief History of Time', 2, 'SCIENCE');
 INSERT INTO book (title, author_id, genre) VALUES ('The Da Vinci Code', 1, 'MYSTERY');
 INSERT INTO book (title, author_id, genre) VALUES ('Sapiens: A Brief History of Humankind', 1, 'HISTORY');
 INSERT INTO book (title, author_id, genre) VALUES ('Pride and Prejudice', 1, 'ROMANCE');
-INSERT INTO book (title, author_id, genre) VALUES ('Charlotte''s Web', 3, 'KIDS');
+INSERT INTO book (title, author_id, genre) VALUES ('Charlotte''s Web', 2, 'KIDS');
 INSERT INTO book (title, author_id, genre) VALUES ('Educated', 1, 'NONFICTION');
-INSERT INTO book (title, author_id, genre) VALUES ('The Silent Patient', 3, 'MYSTERY');
+INSERT INTO book (title, author_id, genre) VALUES ('The Silent Patient', 2, 'MYSTERY');
 
 CREATE OR REPLACE FUNCTION add_member_with_role(
     p_name VARCHAR,

@@ -124,7 +124,6 @@ public class Service {
         System.out.print("What book do you want to remove?\n");
         String bookTitle = scanner.nextLine();
         libraryService.removeBook(bookTitle);
-        System.out.println("Book removed successfully.");
     }
 
     private void searchBooksByAuthor() throws SQLException {
