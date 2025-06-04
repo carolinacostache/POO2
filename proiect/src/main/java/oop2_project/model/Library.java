@@ -1,7 +1,11 @@
-package main.java.oop2_project;
+package main.java.oop2_project.model;
+import main.java.oop2_project.exception.MissingBook;
+
 import java.util.*;
 import java.time.LocalDate;
 
+
+/* this class is not needed anymore */
 
 public class Library {
     private List<Book> books = new ArrayList<>();
