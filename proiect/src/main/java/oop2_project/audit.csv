@@ -1,0 +1,30 @@
+getAllBooks,2025-06-04 17:45:39
+addBook: title=red, authorId=1, genre=MYSTERY,2025-06-04 17:46:02
+getAllBooks,2025-06-04 17:46:06
+getAllBooks,2025-06-04 17:51:56
+getAllBooks,2025-06-04 17:55:09
+getAllBooks,2025-06-04 18:00:46
+getAllBooks,2025-06-04 18:02:38
+getAllBooks,2025-06-04 18:09:41
+addBook: title=red, authorId=1, genre=FICTION,2025-06-04 18:10:07
+removeBook: bookId=2,2025-06-04 18:10:15
+getAllBooks,2025-06-04 18:10:18
+addMemberWithRole: name=ana, email=ana@cca.ro, role=author,2025-06-04 18:10:42
+getAllBooks,2025-06-04 18:16:49
+addBook: title=sun, authorName=carolina, genre=NONFICTION,2025-06-04 18:17:09
+getAllBooks,2025-06-04 18:17:12
+addMemberWithRole: name=daria, email=daria@cca.ro, role=author,2025-06-04 18:17:38
+addBook: title=travel, authorName=daria, genre=ROMANCE,2025-06-04 18:18:15
+getAllBooks,2025-06-04 18:18:17
+addBook: title=dEEP, authorName=Carolina, genre=ROMANCE,2025-06-04 18:21:07
+getAllBooks,2025-06-04 18:21:09
+findBooksByAuthor: authorName=Carolina,2025-06-04 18:31:34
+getAllBooks,2025-06-04 19:00:09
+addMemberWithRole: name=ANTONIA, email=antonia@cca.ro, role=reader,2025-06-04 19:00:36
+borrowBook: bookName=red, readerName=antonia,2025-06-04 19:05:22
+returnBook: bookTitle=red,2025-06-04 19:05:32
+getOverdueReservations,2025-06-04 19:05:50
+getOverdueReservations,2025-06-04 19:45:29
+getAllBooks,2025-06-04 21:21:26
+getAllBooks,2025-06-04 21:27:02
+getAllBooks,2025-06-04 21:29:42
