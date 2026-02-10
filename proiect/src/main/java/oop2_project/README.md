@@ -6,7 +6,7 @@ This is my Java project developed for the **Advanced Object-Oriented Programming
 The application simulates a digital library system where users can manage books, members, borrowed books and reservations. It also includes database persistence and an audit service for tracking user actions.
 The project emphasizes clean OOP principles, proper architecture separation, and data persistence using JDBC with PostgreSQL.
 
-## 🏗️ System Architecture
+## System Architecture 🏗️
 
 The system is built on a solid OOP foundation, utilizing inheritance for member management and interfaces for abstraction.
 
@@ -44,7 +44,7 @@ classDiagram
 
 ```
 
-## 💾 Database & Persistence
+## Database & Persistence 💾
 
 The application uses **JDBC** with the **DAO (Data Access Object) Pattern** to ensure maintainability and the Single Responsibility Principle.
 
@@ -67,7 +67,7 @@ The application supports a wide range of administrative and user actions, all of
 10. Show reserved books;
 11. Reset reservations.
 
-##  Core Object Types 🧱
+## Core Object Types 🧱
 
 The system is built using the following classes:
 
@@ -86,12 +86,12 @@ The system is built using the following classes:
 - `ConnectionProvider` - Singleton class responsible for creating and managing the connection to the PostgreSQL database
 - `BookDAO, ReaderDAO, AuthorDAO, MemberDAO` – DAO classes that encapsulate all SQL logic for their corresponding entities
 
-##  Collections Used 🗂️
+## Collections Used 🗂️
 
 - `List<Book>` – Stores all books (unsorted)
 - `Set<Reader>` – A `TreeSet` sorted by reader name
 
-## 📈 Development Milestones
+## Development Milestones 📈
 
 ### Stage 1️⃣ – Status
 This stage focused on building the core logic.

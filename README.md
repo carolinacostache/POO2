@@ -4,7 +4,7 @@ This is the repository I used for the **Advanced Object-Oriented Programming** l
 
 Each lab/project has its dedicated folder. 📂
 
-## 🏆 Featured Project: Digital Library System
+## Digital Library System
 
 **Location:** [`proiect/src/main/java/oop2_project`](proiect/src/main/java/oop2_project)
 
